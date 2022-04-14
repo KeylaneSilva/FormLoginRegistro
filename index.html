@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Login e Registro</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="img/fb.png" alt="icone do facebook">
+                <img src="img/tw.png" alt="icone do facebook">
+                <img src="img/gp.png" alt="icone do facebook">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Usuário">
+                <input type="password" class="input-field" placeholder="Senha">
+                <input type="checkbox" class="check-box"><span>Lembrar minha senha</span>
+                <button type="submit" class="submit-btn">Entrar</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Usuário">
+                <input type="email" class="input-field" placeholder="Email">
+                <input type="password" class="input-field" placeholder="Senha">
+                <input type="checkbox" class="check-box"><span>Eu aceito os termos</span>
+                <button type="submit" class="submit-btn">Cadastrar</button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+
+<script src="script/script.js"></script>
+
+</html>
